@@ -1,0 +1,95 @@
+.header {
+ font-family: roboto;
+ margin: 0 auto;
+}
+
+body {
+ background-color: #5d3d97;
+ color: #ffffff;
+}
+
+.main-container {
+ height: 520px;
+ width: 350px;
+ position: relative;
+ margin: 0 auto;
+ background-color: #5462f5;
+ color: white;
+ font-size: 20px;
+ font-family: roboto;
+ border: 0;
+ text-align: center;
+}
+
+#sky-cons {
+ display: inline-block;
+}
+
+#location-name {
+ font-size: 15px;
+ display: inline-block;
+}
+
+#tempinfo {
+ font-size: 65px;
+ font-family: roboto;
+ font-weight: 100%;
+}
+
+#tempinfo:hover {
+ color: #dcdcdc;
+ cursor: pointer;
+}
+
+#date {
+ font-size: 14px;
+}
+
+.other-info-data {
+ position: relative;
+ display: inline-block;
+ font-size: 16px;
+}
+
+.extra-data {
+ position: relative;
+ width: 100%;
+ display: inline-block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/*@media screen and (max-width: 600px) {
+ .extra-data {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+ }
+ .other-info-data {
+  display: inline-block;
+  font-size: 10px;
+ }
+ .main-container {
+  height: 540px;
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+  background-color: #5462f5;
+  color: white;
+  font-size: 14px;
+  font-family: roboto;
+  border: 0;
+ }
+ #date {
+  font-size: 8px;
+ }
+ #location-name {
+  font-size: 10px;
+  display: inline-block;
+ }
+ #tempinfo {
+  font-size: 45px;
+  font-family: roboto;
+  font-weight: 100%;
+ }
+}*/

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/style.css">
+ <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+ <script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+ <script src="js/jQuery.js" charset="utf-8"></script>
+
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+
+ <div class="header text-center">
+  <h1>Weather App</h1>
+ </div>
+
+
+
+ <div class="container-fluid">
+  <div class="main-container">
+   <div class="row text-center">
+    <p id="location-name" class="text-center col-md-12">--</p>
+   </div>
+
+
+   <div class="row text-center">
+
+    <i class="loading-icon fa fa-spinner fa-spin fa-2x col-md-12"></i>
+
+
+    <p id="tempinfo" class="text-center col-md-12">--</p>
+   </div>
+
+   <div class="row">
+    <div class="col-md-12 text-center">
+
+     <canvas id="sky-cons" width="100px" height="100px">
+
+     </canvas>
+
+    </div>
+   </div>
+   <div class="row">
+    <p id="summary" class="col-md-12 text-center">--</p>
+   </div>
+
+   <div class="row">
+    <p id="date" class="text-center col-md-12">--</p>
+   </div>
+
+
+   <div class="extra-data text-center">
+    <div class="row">
+     <div class="col-md-6 col-sm-6 col-xs-4">
+      <p class="other-info-data">Humidity</p>
+     </div>
+     <div class="col-md-6 col-sm-6 col-xs-4">
+      <p class="other-info-data">Pressure</p>
+     </div>
+
+    </div>
+    <div class="row">
+     <div class="col-md-6 col-sm-6 col-xs-4">
+      <p id="humidity" class="other-info-data">---</p>
+     </div>
+     <div class="col-md-6 col-sm-6 col-xs-4">
+      <p id="pressure" class="other-info-data">---</p>
+     </div>
+
+    </div>
+    <div class="row">
+     <div class="col-md-6 col-sm-6 col-xs-4">
+      <p class="other-info-data">Wind Speed</p>
+     </div>
+     <div class="col-md-6 col-sm-6 col-xs-4">
+      <p class="other-info-data">Visibility</p>
+     </div>
+
+    </div>
+    <div class="row">
+     <div class="col-md-6 col-sm-6 col-xs-4">
+      <p id="windspeed" class="other-info-data">---</p>
+     </div>
+     <div class="col-md-6 col-sm-6 col-xs-4">
+      <p id="visibility" class="other-info-data">---</p>
+     </div>
+
+    </div>
+
+   </div>
+
+
+  </div>
+
+
+ </div>
+</body>
+
+<script src="js/mainscript.js" charset="utf-8"></script>
+
+</html>
